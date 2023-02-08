@@ -1,0 +1,27 @@
+__pycache__/
+archive/
+data/
+data_db_mirror/
+google_drive_folders/
+google_sheets/
+logs/
+reports/
+.env
+service_account_credentials.json
+oauth.json
+mycreds.txt
+snowflake_creds.json
+token.json
+*.p8
+*.pub
+*creds*.json
+*/token.json
+desktop.ini
+sheets.googleapis.com-python.json
+looker.ini
+done_message_ids.txt
+.vscode/
+# Ignore everything in the triggers/ directory except for crontab_extraction.txt and crontab_extractor.sh
+triggers/*
+!triggers/crontab_extraction.txt
+!triggers/crontab_extractor.sh
